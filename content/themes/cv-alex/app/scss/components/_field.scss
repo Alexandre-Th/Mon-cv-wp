@@ -1,0 +1,71 @@
+.field {
+    
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 100%;
+
+    label {
+        display:block;
+        color: #fffed8;
+        font-weight: bold;
+        font-family: $font-title;
+        padding-bottom: 0.3em;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        background-color: #fffed8;
+        border: none;
+        border-radius: 5px;
+        color: #d73a37;
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: $font-text;
+        padding: 0.5em;
+
+        @media (max-width: $breakpoint-medium) {
+            font-size: 1em;
+        }
+
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+
+    textarea {
+        height: 6em;
+        resize: none;
+    }
+
+    input[type=submit] {
+        color: #fffed8;
+        background-color: #d73a37;
+        font-weight: bold;
+        font-size: 1em;
+        font-family: $font-title;
+        padding: 1em;
+        border-radius: 5px;
+        border: none;
+        margin-top: 0.5em;
+    }
+
+    @media (max-width: $breakpoint-medium) {
+        font-size: .8em;
+    }
+
+    @media (min-width: $breakpoint-large) {
+        text-align: center;
+    }
+
+    @media (min-width: $breakpoint-extra-large) {
+
+        &.is-half {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.contact-info {
+
+
+    &__part {
+
+        min-height: 33.33%;
+        line-height: 1em;
+        border-bottom: 3px solid $Red;
+        padding: 1em;
+        position: relative;
+
+        &:last-child {
+            border:none;
+        }
+
+        .fa {
+            margin-left: 0.2em;
+            position: absolute;
+            font-size: 3em;
+            color: #fffed8;
+
+            
+        }
+
+        &__label {
+            margin-top: .5em;
+            margin-left: 5em;
+            margin-bottom: 0.6em;
+            font-weight: bold;
+            font-family: $font-title;
+            color:#fffed8;
+        }
+
+        &__content {
+            margin-left: 5em;
+            font-family: $font-text;
+            font-size: 1em;
+            color: #fffed8;
+            font-weight: bold;
+
+            @media (max-width:$breakpoint-small) {
+                font-size: .8em;
+                margin-left: 6.5em;;
+            }
+
+            &.is-email {
+                color:#fffed8;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

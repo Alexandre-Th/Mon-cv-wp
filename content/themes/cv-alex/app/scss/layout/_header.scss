@@ -1,0 +1,102 @@
+.header {
+    flex-wrap: nowrap;
+    display: flex;
+    box-sizing: border-box;
+    background-color: $Yellow;
+    height: 80vh;
+
+    @media (max-width: $breakpoint-extra-large) {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+}
+
+.profil-content {
+    align-self: flex-end;
+    width: 70%;    
+    box-sizing: border-box;
+    background-color: $Grey;
+    margin-bottom: 5em;
+    margin-right: 5em;
+    padding: 1.5em;
+    border-radius: 10px;
+
+    @media (max-width: $breakpoint-extra-large) {
+        //transform: translate3d(0,0,0) !important;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 2em;
+        width: 100%;
+    }
+
+    @media (max-width:$breakpoint-small) {
+        margin: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+
+}
+
+.profil-title {
+    box-sizing: border-box;
+    font-family: $font-title;
+    color: $Cream;
+    font-size: 2em;
+    padding-bottom: .8em;
+    border-bottom: solid 6px $Red;
+
+    
+}
+
+.profil-picture  {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+
+    @media (max-width: $breakpoint-extra-large) {
+        width: 100%;
+    }
+}
+
+.profil-picture img{
+    position: absolute;
+    top: 0px;
+    left: 15em;
+    box-sizing: border-box;
+    max-height: 80vh;
+    min-width: 30%;
+
+    @media (max-width: $breakpoint-XXL) {
+        position: relative;
+        top: 0px;
+        left: 0em;
+    }
+    
+    @media (max-width: $breakpoint-extra-large) {
+        max-height: 800px;
+        width: 80%;
+    }
+
+    @media (max-width: $breakpoint-large) {
+        width: 80%;
+
+    }
+
+}
+
+.profil-text {
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: auto;
+    color: $Cream;
+    font-family: $font-text;
+    font-size: 1em;
+}
+

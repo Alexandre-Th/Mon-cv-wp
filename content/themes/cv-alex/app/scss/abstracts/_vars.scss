@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@700&display=swap');
+
+
+$fa-font-path: '~font-awesome/fonts';
+
+// media query
+$breakpoint-small: 375px;
+$breakpoint-medium: 500px;
+$breakpoint-large: 1000px;
+$breakpoint-extra-large: 1200px;
+$breakpoint-XXL: 1800px;
+
+// colors CV
+$Green: #7ce63a;
+$GreenOclock: #07c3a7;
+$Pink: #eb63ad;
+$Blue: #0275a1;
+$Yellow: #f7df1c;
+$Black: #000000;
+$Grey: #323232;
+$Red: #d73a37;
+$Cream: #fffed8;
+
+
+//font 
+$font-title: 'Press Start 2P';
+$font-text: 'Ubuntu', sans-serif;
+
+//animation 
+$duration: .3s;
+
+
+

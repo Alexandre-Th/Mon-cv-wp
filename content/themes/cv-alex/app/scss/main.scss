@@ -1,0 +1,40 @@
+
+@charset 'UTF-8';
+
+// 1. Abstracts
+@import
+    'abstracts/vars';
+
+// 2. Vendors
+
+@import
+    '~reset-css/sass/reset',
+    '~font-awesome/scss/font-awesome';
+
+// 3. Base
+@import
+    'base/base';
+
+// 4. Layout
+@import
+    'layout/footer',
+    'layout/header',
+    'layout/main-school',
+    'layout/main-spec',
+    'layout/menu',
+    'layout/wrapper';
+
+
+// 5. Components
+@import
+    'components/contact-form',
+    'components/contact-info',
+    'components/field',
+    'components/main-nav',
+    'components/social-nav',
+    'components/ui-button';
+
+// 6. Shame
+
+@import
+    'shame';

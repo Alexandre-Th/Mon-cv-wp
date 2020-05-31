@@ -1,0 +1,87 @@
+.main-spec {
+    background-color: $Blue;
+    min-height: 800px;
+    display: flex;
+    box-sizing: border-box;
+    height: 80vh;
+
+    @media (max-width: $breakpoint-extra-large) {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+}
+
+.spec-content {
+    align-self: center;
+    align-items: flex-end;
+    width: 70%;
+    box-sizing: border-box;
+    background-color: $Grey;
+    padding: 1.5em;
+    top: 700px;
+    margin-right: 5em;
+    margin-left: 5em;
+    border-radius: 10px;
+
+    @media (max-width: $breakpoint-extra-large) {
+        //transform: translate3d(0,0,0) !important; 
+        margin-right: 1em;
+        margin-left: 1em;
+        width: 100%;
+    }
+
+    @media (max-width:$breakpoint-small) {
+        margin: 0;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+
+}
+
+.spec-title {
+    box-sizing: border-box;
+    font-family: $font-title;
+    color: $Cream;
+    font-size: 2em;
+    padding-bottom: .8em;
+    border-bottom: solid 6px $Red;
+
+    
+}
+
+.spec-picture  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+
+    @media (max-width: $breakpoint-extra-large) {
+        justify-content: center;
+        max-height: 300px;
+        width: 100%;
+    }
+}
+
+.spec-picture__link{
+    box-sizing: border-box;
+
+}
+
+.spec-picture__link img {
+    height: auto;
+    max-width: 100%;
+}
+
+.spec-text {
+    line-height: 1.5em;
+    margin-top: 1em;
+    font-family: $font-text;
+    color: $Cream;
+    font-size: 1em;
+}
