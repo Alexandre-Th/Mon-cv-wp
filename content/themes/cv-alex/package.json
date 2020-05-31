@@ -33,9 +33,9 @@
   "dependencies": {
     "file-loader": "*",
     "font-awesome": "^4.7.0",
-    "jquery": "*",
-    "jquery.scrollex": "*",
-    "rellax": "*",
-    "reset-css": "*"
+    "jquery": "^3.5.0",
+    "jquery.scrollex": "^0.2.1",
+    "rellax": "^1.12.1",
+    "reset-css": "^5.0.1"
   }
 }
