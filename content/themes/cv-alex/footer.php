@@ -1,5 +1,3 @@
-</main>
-    </section>
     <section class="contact" id="contact">
       <footer class="footer" id="footer">
         <form action="" class="contact-form">
@@ -42,48 +40,4 @@
   
         </address>
       </footer>
-    </section>
-      <div class="menu">
-        <div class="burger_menu-icon">
-          <span></span>
-        </div>
-        <nav class="main-nav">
-          <ul>
-            <li class="main-nav__item">
-              <a href="#profil">Profil</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#school">School</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#spec">Speciality</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="social-nav">
-          <ul>
-            <li>
-              <a href="#">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-    </div>
-  <script src="content/themes/cv-alex/public/js/app.js"></script>
-  <?php wp_footer(); ?>
-</body>
-</html>
+    
