@@ -1,15 +1,28 @@
 <section class="school" id="school">
+    <?php 
+
+    $args = [
+      'post-type' => 'post',
+      'posts_per_page' => 1,
+      'p' => 11,
+    ];
+
+    $articleSchool = new WP_Query($args);
+
+    ?>
+    <?php if ($articleSchool->have_posts()): while ($articleSchool->have_posts()) : $articleSchool->the_post(); ?>
       <main class="main-school">
         <div class="school-picture">
-          <a href="" class="school-picture__link">
-            <img src="content/themes/cv-alex/public/images/Oclock.jpg" alt="logo Oclock">
+          <a href="https://oclock.io/formations/developpeur-web" class="school-picture__link">
+            <img src="<?php the_post_thumbnail_url(); ?>" alt="logo Oclock">
           </a>
         </div>
         <div class="school-content">
           <h1 class="school-title">
-            I learned at O'clock ! 
+            <?php the_title(); ?> 
           </h1>
-          <p class="school-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore provident maiores eos deserunt nihil doloremque harum nisi animi corporis vel odio, enim magni quae ullam, tenetur sint ut commodi perspiciatis quos! Corporis, iure. Aut, suscipit placeat, architecto explicabo optio repellendus, hic omnis exercitationem culpa ab iusto consectetur maxime facere vero.</p>
+          <div class="school-text"><?php the_content(); ?></div>
         </div>
       </main>
-    </section>
+    <?php endwhile; endif; ?>   
+  </section>

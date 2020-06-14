@@ -33,8 +33,8 @@
             <i class="fa fa-home" aria-hidden="true"></i>
             <h4 class="contact-info__part__label">Adresse</h4>
             <p class="contact-info__part__content">
-              28 Avenue Barbier Daubrée<br />
-              63100 Clermont-Ferrand
+              52 avenue Albert & Elisabeth <br />
+              63000 Clermont-Ferrand
             </p>
           </div>
   
